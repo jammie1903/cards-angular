@@ -1,10 +1,10 @@
-import { CardsAagainstNormallityPage } from './app.po';
+import { CardsAgainstNormallityPage } from './app.po';
 
-describe('cards-aagainst-normallity App', () => {
-  let page: CardsAagainstNormallityPage;
+describe('cards-against-normallity App', () => {
+  let page: CardsAgainstNormallityPage;
 
   beforeEach(() => {
-    page = new CardsAagainstNormallityPage();
+    page = new CardsAgainstNormallityPage();
   });
 
   it('should display message saying app works', () => {
