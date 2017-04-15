@@ -1,0 +1,6 @@
+<div class="hand">
+  <app-card *ngFor="let card of cards" 
+  [text]="card"
+  [ngClass]="{'selected': card === selected}" 
+  (click)="toggleSelect(card)"></app-card>
+</div>

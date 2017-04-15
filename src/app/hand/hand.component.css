@@ -1,0 +1,14 @@
+.hand {
+  display: flex;
+}
+
+app-card {
+  flex: 1 1 0;
+  overflow-x: hidden;
+
+  flex-basis: auto;
+  transition: all 0.7s;
+}
+app-card:last-child, app-card:hover {
+  flex: 0 0 auto;
+}
