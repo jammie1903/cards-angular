@@ -8,7 +8,9 @@ app-card {
 
   flex-basis: auto;
   transition: all 0.7s;
+  margin-right: -140px;
 }
 app-card:last-child, app-card:hover {
   flex: 0 0 auto;
+  margin-right: -0px;
 }
